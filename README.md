@@ -1,9 +1,9 @@
-Node JS API's for Customer Relationship Management application, Using which Customer can raise a Ticket if he face any issue with the company product, Which is then automatically assigned to available technician. Which also embeds Notification service for letting the user know tracking of the ticket.
+Node JS API's for Customer Relationship Management application, 
 
 # CRM_APP - Customer Relationship Management Application Backend [ Session 1]
 ## _Learning the development of RESTful APIs for backend development_ 
 
-This code base contains logic/structure  for creating the Restful APIs for the CRM_APP app
+This code base contains logic/structure for creating the Restful APIs for the CRM_APP app, Using which Customer can raise a Ticket if he face any issue with the company product, Which is then automatically assigned to available technician. Which also embeds Notification service for letting the user know tracking of the ticket.
 ## Features
 * Setting up project structure and database
 * Setting up data models for Ticket item
