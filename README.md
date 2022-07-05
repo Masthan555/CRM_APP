@@ -66,7 +66,7 @@ Sample response body :
 
 
 ---
-#### 2. Get all the movies
+#### 2. Get all the tickets
 
 ```sh
 GET /crm/api/v1/tickets/
@@ -99,7 +99,7 @@ Sample response body :
 
 ```
 ---
-#### 3. Get  the movies based on status
+#### 3. Get  the tickets based on status
 ```sh
 GET /crm/api/v1/tickets?status=OPEN
 
