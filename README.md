@@ -10,6 +10,10 @@ This code base contains logic/structure  for creating the Restful APIs for the C
 * API for CRUD operation on Ticket resource-
 * Ability to create, read, update and Ticket based on authorization provided.
 
+* Setting up data models for User item
+* API for CRUD operation on User resource-
+* Ability to create, read, update and User based on authorization provided.
+
 
 
 ## How is the code organized in this repo ?
@@ -165,3 +169,51 @@ Sample response body :
     }
 ```
 
+---
+#### 1. USER/ENGINEER/ADMIN SignUp
+
+```sh
+POST /crm/api/v1/auth/signup
+Sample request body :
+{
+    "name" : "Akshay",
+    "userId" : "AKSH_007",
+    "email" : "aksh.007@gmail.com",
+    "userType" : "CUSTOMER",
+    "password" : "aksh82521",
+}
+
+Sample response body :
+{
+    "name" : "Akshay",
+    "userId" : "AKSH_007",
+    "email" : "aksh.007@gmail.com",
+    "userType" : "CUSTOMER",
+    "userStatus" : "APPROVED",
+    "password" : "aksh82521",
+    "createdAt": "2022-03-31T18:13:22.598Z",
+    "updatedAt": "2022-03-31T18:13:22.598Z"
+}
+```
+
+---
+#### 2. USER/ENGINEER/ADMIN Login
+
+```sh
+POST /crm/api/v1/auth/signin
+Sample request body :
+{
+    "userId" : "AKSH_007",
+    "password" : "aksh82521",
+}
+
+Sample response body :
+{
+    "name" : "Akshay",
+    "userId" : "AKSH_007",
+    "email" : "aksh.007@gmail.com",
+    "userType" : "CUSTOMER",
+    "userStatus" : "APPROVED",
+    "accessToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Im1hc3RoYW4iLCJpYXQiOjE2NTQ3MTI1MjUsImV4cCI6MTY1NDcxNjEyNX0.9nFfFTp82ZEf91l1mjn3rULou8_i4LCeULZr_qulNKM",
+}
+```
