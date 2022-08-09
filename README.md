@@ -1,6 +1,6 @@
-Node JS API's for Customer Relationship Management application, 
+Node JS API's for Customer Relationship Management application
 
-# CRM_APP - Customer Relationship Management Application Backend [ Session 1]
+# CRM_APP - Customer relationship management application backend
 ## _Learning the development of RESTful APIs for backend development_ 
 
 This code base contains logic/structure for creating the Restful APIs for the CRM_APP app, Using which Customer can raise a Ticket if he face any issue with the company product, Which is then automatically assigned to available technician. Which also embeds Notification service for letting the user know tracking of the ticket.
@@ -218,5 +218,5 @@ Sample response body :
 }
 ```
 
-Incase of having any issues/doubts in running the API's or understanding the code.
-Please feel free to contact me : masthan55591@gmail.com
+##### Incase of having any issues/doubts in running the API's or understanding the code.
+##### Please feel free to contact me : masthan55591@gmail.com
